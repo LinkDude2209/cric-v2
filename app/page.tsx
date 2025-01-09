@@ -3,11 +3,12 @@ import { HeroScrollDemo } from "./components/hero/vid-container-h";
 import Hero from "./components/hero/hero";
 import { Working } from "./components/working";
 import Coaches from "./components/coaches";
-import { TestimonalsDemo } from "./components/testimonial-main";
+import { MarqueeDemo } from "./components/reviews";
 import AboutSection from "./components/about";
 import SportsParentingSection from "./components/parenting";
 import PricingPage from "./components/pricing";
-import Footer from "./components/footer";
+import Footer from "./components/footer/footer";
+
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       </div>
       <Working />
       <Coaches />
-      <TestimonalsDemo />
+      <MarqueeDemo />
       <AboutSection />
       <SportsParentingSection />
       <PricingPage />

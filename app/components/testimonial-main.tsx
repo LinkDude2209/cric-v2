@@ -1,7 +1,6 @@
 "use client";
 
 import { Testimonials } from "@/components/ui/testimonials";
-
 export function TestimonalsDemo() {
     return (
         <div className="flex min-h-screen items-center justify-center px-4 sm:px-6 lg:px-8">
