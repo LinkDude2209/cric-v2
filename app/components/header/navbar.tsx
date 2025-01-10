@@ -34,7 +34,9 @@ export default function Navbar() {
                             Blogs
                         </Button>
                         <Button size="sm" className="ml-2">
-                            Sign up
+                            <Link href='/login'>
+                                login
+                            </Link>
                         </Button>
                     </div>
                     {/* Mobile Menu */}

@@ -1,6 +1,7 @@
 import React from "react";
 import { QueryCard } from "./enquiry-card";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Footer() {
@@ -34,9 +35,11 @@ export default function Footer() {
 
                         </div>
                         <div className="flex flex-col space-y-4 text-sm mt-6">
-                            <h3 className="text-sm font-bold text-white">Privacy Policy</h3>
-                            <h3 className="text-sm font-bold text-white">Terms & conditions</h3>
-                            <h3 className="text-sm font-bold text-white">Refund Policy</h3>
+                            <Link href="/privacypolicy">
+                                <h3 className="text-sm font-bold text-white">Privacy Policy</h3></Link>
+
+                            <Link href="/termsandconditions"><h3 className="text-sm font-bold text-white">Terms & conditions</h3></Link>
+                            <Link href="/refundpolicy"><h3 className="text-sm font-bold text-white">Refund Policy</h3></Link>
 
 
                         </div>
